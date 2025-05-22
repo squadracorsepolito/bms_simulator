@@ -1,0 +1,3 @@
+[submodule "SCan"]
+	path = SCan
+	url = git@github.com:squadracorsepolito/SCan.git
