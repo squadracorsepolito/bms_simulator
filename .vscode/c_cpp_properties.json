@@ -8,8 +8,11 @@
                 "Drivers/CMSIS/Include",
                 "Drivers/STM32F4xx_HAL_Driver/Inc",
                 "Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
-                "SCan/SC24/artifacts/MCB/c_source/Inc",
-                "${workspaceFolder}/SCan/SC22EVO/artifacts/HVCB/c_source"
+                
+                "${workspaceFolder}/SCan/SC24/artifacts/HVCB/c_source",
+                "${workspaceFolder}/SCan/SC24/artifacts/MCB/c_source",
+                "${workspaceFolder}/SCan/SC24/artifacts/IFCB/c_source",
+                "${workspaceFolder}/SCan/SC24/artifacts/IRCB/c_source"
             ],
             "defines": [
                 "STM32F446xx",
