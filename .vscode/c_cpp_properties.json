@@ -1,25 +1,22 @@
 {
-    "configurations": [
-        {
-            "name": "STM32",
-            "includePath": [
-                "Core/Inc",
-                "Drivers/CMSIS/Device/ST/STM32F4xx/Include",
-                "Drivers/CMSIS/Include",
-                "Drivers/STM32F4xx_HAL_Driver/Inc",
-                "Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
-                
-                "${workspaceFolder}/SCan/SC24/artifacts/HVCB/c_source",
-                "${workspaceFolder}/SCan/SC24/artifacts/MCB/c_source",
-                "${workspaceFolder}/SCan/SC24/artifacts/IFCB/c_source",
-                "${workspaceFolder}/SCan/SC24/artifacts/IRCB/c_source"
-            ],
-            "defines": [
-                "STM32F446xx",
-                "USE_HAL_DRIVER"
-            ],
-            "compilerPath": "/usr/bin/arm-none-eabi-gcc"
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "STM32",
+      "includePath": [
+        "Core/Inc",
+        "Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+        "Drivers/CMSIS/Include",
+        "Drivers/STM32F4xx_HAL_Driver/Inc",
+        "Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+        "SCan/SC24/artifacts/HVCB/c_source",
+        "SCan/SC24/artifacts/MCB/c_source"
+      ],
+      "defines": [
+        "STM32F446xx",
+        "USE_HAL_DRIVER"
+      ],
+      "compilerPath": "/usr/bin/arm-none-eabi-gcc"
+    }
+  ],
+  "version": 4
 }

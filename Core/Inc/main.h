@@ -71,6 +71,10 @@ void Error_Handler(void);
 #define IMD_ERR_GPIO_Port GPIOB
 #define AMS_ERR_Pin GPIO_PIN_2
 #define AMS_ERR_GPIO_Port GPIOB
+#define R_CAN1_Pin GPIO_PIN_11
+#define R_CAN1_GPIO_Port GPIOA
+#define T_CAN1_Pin GPIO_PIN_12
+#define T_CAN1_GPIO_Port GPIOA
 #define TMS_Pin GPIO_PIN_13
 #define TMS_GPIO_Port GPIOA
 #define TCK_Pin GPIO_PIN_14
